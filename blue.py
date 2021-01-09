@@ -1,10 +1,10 @@
 import requests as reqs
 import json
-ip = "192.168.0.62"
-username = "yjtesHyWJDPH6JaSE67iXDxhZNqXCM4UXNO34pbq"
-curtis = "16"
-fullurl = ("http://" + ip + "/api/" + username + "/lights/" + curtis )
-updateurl = ("http://" + ip + "/api/" + username + "/lights/" + curtis + "/state" )
+ip = "bridge ip"
+username = "hue light username"
+ln = "your light numer"
+fullurl = ("http://" + ip + "/api/" + username + "/lights/" + ln )
+updateurl = ("http://" + ip + "/api/" + username + "/lights/" + ln + "/state" )
 
 response = reqs.get(fullurl)
 jsonstring = response.text
