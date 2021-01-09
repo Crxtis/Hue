@@ -2,7 +2,7 @@ import requests as reqs
 import json
 ip = "bridge ip"
 username = "hue light username"
-ln = "your light numer"
+ln = "your light number"
 fullurl = ("http://" + ip + "/api/" + username + "/lights/" + ln )
 updateurl = ("http://" + ip + "/api/" + username + "/lights/" + ln + "/state" )
 
