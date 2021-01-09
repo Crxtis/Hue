@@ -1,7 +1,7 @@
 import requests as reqs
 import json
-ip = "192.168.0.62"
-username = "yjtesHyWJDPH6JaSE67iXDxhZNqXCM4UXNO34pbq"
+ip = "bridge ip"
+username = "hue light username"
 
 fullurl = ("http://" + ip + "/api/" + username + "/lights/" )
 
